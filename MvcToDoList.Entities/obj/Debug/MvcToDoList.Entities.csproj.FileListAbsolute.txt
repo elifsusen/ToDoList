@@ -1,0 +1,6 @@
+C:\Users\elif\source\repos\MvcToDoList\MvcToDoList.Entities\bin\Debug\MvcToDoList.Entities.dll
+C:\Users\elif\source\repos\MvcToDoList\MvcToDoList.Entities\bin\Debug\MvcToDoList.Entities.pdb
+C:\Users\elif\source\repos\MvcToDoList\MvcToDoList.Entities\obj\Debug\MvcToDoList.Entities.csprojAssemblyReference.cache
+C:\Users\elif\source\repos\MvcToDoList\MvcToDoList.Entities\obj\Debug\MvcToDoList.Entities.csproj.CoreCompileInputs.cache
+C:\Users\elif\source\repos\MvcToDoList\MvcToDoList.Entities\obj\Debug\MvcToDoList.Entities.dll
+C:\Users\elif\source\repos\MvcToDoList\MvcToDoList.Entities\obj\Debug\MvcToDoList.Entities.pdb

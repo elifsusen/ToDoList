@@ -1,0 +1,95 @@
+﻿@model List<MvcToDoList.Entities.ToTheItem>
+@{
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<style>
+    .popup {
+        height: 200px;
+        width: 250px;
+        background-color :darkseagreen ;
+        bottom: -200px;
+        right: 0;
+        position: absolute;
+        transition: all 0.8s;
+        padding-top:5px;
+        padding-left: 15px;
+        border-radius: 10px;
+        
+    }
+
+    .open {
+        bottom: 0;
+    }
+
+    body {
+        overflow: hidden;
+    }
+</style>
+
+<table class="table table-bordered" style="margin-top:20px" id="totheitems">
+    <tr>
+        <th>Description</th>
+        <th>Planned Date</th>
+        <th>Planned Hour</th>
+        <th>Delete</th>
+        <th>Update</th>
+    </tr>
+
+    @foreach (var item in Model)
+    {
+        <tr>
+            <td id="description">@item.Description</td>
+            <td id="planned_date">@item.PlannedDate.ToShortDateString()</td>
+            <td>@item.PlannedHour.ToString("hh':'mm")</td>
+            <td>
+                <center>
+                    <form action="/ToTheItem/Delete" method="post">
+                        <input type="hidden" name="id" value="@item.Id" />
+                        <button type="submit" class="btn btn-danger">Delete</button>
+                    </form>
+                </center>
+            </td>
+            <td>
+                <center>
+                    <a href="/ToTheItem/Edit/@item.Id" class="btn btn-warning">Update</a>
+                </center>
+            </td>
+        </tr>
+
+    }
+</table>
+
+
+<a href="/ToTheItem/Create" class="btn btn-primary">Add New Item</a>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+<div class="popup"><i class="fa fa-bell fa-2x" style="float:right ; padding:5px;"></i>  REMINDER <ul></ul></div>
+
+<script type="text/javascript">
+    window.onload = function message() {
+        var rows = document.getElementsByName("item_row");
+        var d = new Date();
+        var currentDate = d.getDate() + "." + (d.getMonth() + 1) + "." + d.getFullYear();
+
+        $('#totheitems tr').each(function () {
+            debugger;
+            if (!this.rowIndex) return; // skip first row
+            var description = $(this).find("td:first").html();
+            var planned_date = $(this).find("td").eq(1).html();
+            if (planned_date == currentDate) {
+                $("<li>" + description + "</li>").appendTo(".popup");
+            }
+        });
+
+        if ($('.popup').has('li')) {
+            $('.popup').toggleClass("open");
+        }
+    }
+</script>
+
+
+
+
+
+

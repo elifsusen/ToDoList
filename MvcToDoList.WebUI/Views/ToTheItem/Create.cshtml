@@ -1,0 +1,27 @@
+﻿@model MvcToDoList.Entities.ToTheItem
+@{
+    ViewBag.Title = "Create";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<br />
+<h2>New To Do Item</h2>
+<br />
+<br />
+
+@using (Html.BeginForm("Create", "ToTheItem", FormMethod.Post, new { @class = "form-group" }))
+{
+    @Html.LabelFor(x => x.Description, "Description")
+    @Html.TextBoxFor(x => x.Description, new { @class = "form-control", @required = "required" })
+    @Html.LabelFor(x => x.PlannedDate, "Planned Date")
+    @Html.TextBoxFor(x => x.PlannedDate, "{0:dd-MM-yyyy}", new { @class = "dateInput form-control", @required = "required" , type="date"})
+    @Html.LabelFor(x => x.PlannedHour, "Planned Hour")
+    @Html.TextBoxFor(x => x.PlannedHour, "{0:hh\\:mm}", new { @class = "dateInput form-control", @required = "required", type = "time" })
+    <br />
+    <button class="btn btn-info">Kaydet</button>
+
+
+}
+
+
+<script>$('.datepicker').datepicker();</script>

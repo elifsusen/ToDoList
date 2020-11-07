@@ -1,0 +1,14 @@
+C:\Users\elif\source\repos\MvcToDoList\MvcToDoList.DataAccess\bin\Debug\MvcToDoList.DataAccess.dll.config
+C:\Users\elif\source\repos\MvcToDoList\MvcToDoList.DataAccess\bin\Debug\MvcToDoList.DataAccess.dll
+C:\Users\elif\source\repos\MvcToDoList\MvcToDoList.DataAccess\bin\Debug\MvcToDoList.DataAccess.pdb
+C:\Users\elif\source\repos\MvcToDoList\MvcToDoList.DataAccess\bin\Debug\EntityFramework.dll
+C:\Users\elif\source\repos\MvcToDoList\MvcToDoList.DataAccess\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\elif\source\repos\MvcToDoList\MvcToDoList.DataAccess\bin\Debug\MvcToDoList.Entities.dll
+C:\Users\elif\source\repos\MvcToDoList\MvcToDoList.DataAccess\bin\Debug\MvcToDoList.Entities.pdb
+C:\Users\elif\source\repos\MvcToDoList\MvcToDoList.DataAccess\bin\Debug\EntityFramework.xml
+C:\Users\elif\source\repos\MvcToDoList\MvcToDoList.DataAccess\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\elif\source\repos\MvcToDoList\MvcToDoList.DataAccess\obj\Debug\MvcToDoList.DataAccess.csprojAssemblyReference.cache
+C:\Users\elif\source\repos\MvcToDoList\MvcToDoList.DataAccess\obj\Debug\MvcToDoList.DataAccess.csproj.CoreCompileInputs.cache
+C:\Users\elif\source\repos\MvcToDoList\MvcToDoList.DataAccess\obj\Debug\MvcToDoList.DataAccess.csproj.CopyComplete
+C:\Users\elif\source\repos\MvcToDoList\MvcToDoList.DataAccess\obj\Debug\MvcToDoList.DataAccess.dll
+C:\Users\elif\source\repos\MvcToDoList\MvcToDoList.DataAccess\obj\Debug\MvcToDoList.DataAccess.pdb

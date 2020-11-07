@@ -1,0 +1,24 @@
+﻿@model MvcToDoList.Entities.ToTheItem
+@{
+    ViewBag.Title = "Edit";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<br />
+<h2>Update The Item</h2>
+<br />
+@using (Html.BeginForm("Edit", "ToTheItem", FormMethod.Post))
+{
+<div class="form-group">
+    @Html.LabelFor(x => x.Description, "Description")
+    @Html.TextBoxFor(x => x.Description, new { @class = "form-control", @required = "required" })
+    @Html.LabelFor(x => x.PlannedDate, "Planned Date")
+    @Html.TextBoxFor(x => x.PlannedDate, "{0:dd-MM-yyyy}", new { @class = "form-control", @required = "required" })
+    @Html.LabelFor(x => x.PlannedHour, "Planned Hour")
+    @Html.TextBoxFor(x => x.PlannedHour, "{0:hh\\:mm}", new { @class = "dateInput form-control", @required = "required" , type = "time" })
+    <br />
+    <button class="btn btn-default" style="background-color:yellowgreen">Güncelle</button>
+</div>
+}
+
+

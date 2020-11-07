@@ -1,0 +1,16 @@
+C:\Users\elif\source\repos\MvcToDoList\MvcToDoList.Business\bin\Debug\MvcToDoList.Business.dll
+C:\Users\elif\source\repos\MvcToDoList\MvcToDoList.Business\bin\Debug\MvcToDoList.Business.pdb
+C:\Users\elif\source\repos\MvcToDoList\MvcToDoList.Business\bin\Debug\MvcToDoList.DataAccess.dll
+C:\Users\elif\source\repos\MvcToDoList\MvcToDoList.Business\bin\Debug\MvcToDoList.Entities.dll
+C:\Users\elif\source\repos\MvcToDoList\MvcToDoList.Business\bin\Debug\Ninject.dll
+C:\Users\elif\source\repos\MvcToDoList\MvcToDoList.Business\bin\Debug\EntityFramework.dll
+C:\Users\elif\source\repos\MvcToDoList\MvcToDoList.Business\bin\Debug\MvcToDoList.DataAccess.pdb
+C:\Users\elif\source\repos\MvcToDoList\MvcToDoList.Business\bin\Debug\MvcToDoList.DataAccess.dll.config
+C:\Users\elif\source\repos\MvcToDoList\MvcToDoList.Business\bin\Debug\MvcToDoList.Entities.pdb
+C:\Users\elif\source\repos\MvcToDoList\MvcToDoList.Business\bin\Debug\Ninject.xml
+C:\Users\elif\source\repos\MvcToDoList\MvcToDoList.Business\bin\Debug\EntityFramework.xml
+C:\Users\elif\source\repos\MvcToDoList\MvcToDoList.Business\obj\Debug\MvcToDoList.Business.csprojAssemblyReference.cache
+C:\Users\elif\source\repos\MvcToDoList\MvcToDoList.Business\obj\Debug\MvcToDoList.Business.csproj.CoreCompileInputs.cache
+C:\Users\elif\source\repos\MvcToDoList\MvcToDoList.Business\obj\Debug\MvcToDoList.Business.csproj.CopyComplete
+C:\Users\elif\source\repos\MvcToDoList\MvcToDoList.Business\obj\Debug\MvcToDoList.Business.dll
+C:\Users\elif\source\repos\MvcToDoList\MvcToDoList.Business\obj\Debug\MvcToDoList.Business.pdb
